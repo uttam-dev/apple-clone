@@ -1,0 +1,341 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/* Utillty Clases Media Query */
+
+@media screen and (max-width:1000px) {
+
+    .main-unit-wrapper {
+        --pro-name-font-size: 50px;
+        --pro-desc-font-size: 30px;
+        --pro-links-font-size: 25px;
+        --margin-block: 3px;
+    }
+
+    /* More Products */
+    .more-products .product-wrapper [unit-image] {
+        height: 490px;
+        background-size: 516px 490px;
+    }
+
+    /* Footer-Bottom */
+    .footer-bottom .copyright-section .copyrigts-details {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: start;
+    }
+
+    .footer-bottom .copyright-section .copyrigts-details .terms-links {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .footer-bottom .copyright-section .terms-links li:first-child {
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width:850px) {
+
+    .main-unit-wrapper {
+        --pro-name-font-size: 45px;
+        --pro-desc-font-size: 30px;
+        --pro-links-font-size: 25px;
+        --margin-block: 3px;
+    }
+
+    .main-unit-wrapper .text-wrapper {
+        top: 15%;
+        bottom: auto;
+        width: 100%;
+    }
+
+
+    /* More Product */
+    .more-products {
+        --promo-title-font-size: 33px;
+        --promo-desc-font-size: 17px;
+        --promo-links-font-size: 15px;
+    }
+
+
+    /* Footer Nav*/
+    .footer .footer-nav {
+        --footer-nav-title: 12px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .footer .footer-nav h3 {
+        font-weight: 400;
+    }
+
+    .footer .footer-nav .footnav-list {
+        width: 100%;
+        border-bottom: 1px solid #bebec5;
+    }
+
+    .footer .footer-nav ul {
+        display: none;
+    }
+
+    /* Footer Bottom */
+
+    .footer-bottom {
+        --font-size: 12px;
+    }
+
+    .footer-bottom .copyright-section {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: start;
+    }
+
+    .footer-bottom .copyright-section .copyright-name {
+        margin-top: 10px;
+    }
+
+}
+
+@media screen and (max-width:730px) {
+
+    .more-products {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+        padding: 0;
+    }
+
+    .more-products .product-wrapper [unit-image] {
+        height: 548px;
+        background-size: 734px 548px;
+    }
+}
+
+@media screen and (max-width:550px) {
+
+    .main-unit-wrapper {
+        --pro-name-font-size: 35px;
+        --pro-desc-font-size: 20px;
+        --pro-links-font-size: 17px;
+        --margin-inlilne-of-pro-links: 10px;
+        --margin-block: 3px;
+    }
+
+    .main-unit-wrapper .text-wrapper {
+        top: 15%;
+        bottom: auto;
+    }
+
+}
+
+@media screen and (max-width:360px) {
+    .main-unit-wrapper {
+        --pro-name-font-size: 10vw;
+        --pro-desc-font-size: 5vw;
+        --pro-links-font-size: 5vw;
+        --margin-block: 3px;
+    }
+
+
+}
+
+
+
+
+
+
+/* Main Section Media Querys */
+
+@media screen and (max-width:1000px) {
+
+    /* post-1 */
+    .apple-store-shoping-event .text-wrapper .pro-links {
+        font-size: 20px;
+    }
+
+    /* More Products */
+    /* Product-1 */
+    .more-products .promo-apple-iphone15 [unit-image] {
+        background-image: url('../assets/promo_iphone15_announce_medium.jpg');
+    }
+
+    /* Product-2 */
+    .more-products .promo-mbp [unit-image] {
+        background-image: url('../assets/promo_mbp_medium.jpg');
+    }
+
+    /* Product-3 */
+    .more-products .promo-holiday-2023 [unit-image] {
+        background-image: url('../assets/holiday_2023_promo_medium.jpg');
+    }
+
+    /* Product-4 */
+    .more-products .promo-apple-watch-ultra2 [unit-image] {
+        background-image: url('../assets/promo_apple_watch_ultra2_order_medium.jpg');
+    }
+
+    /* Product-5 */
+    .more-products .apple-card [unit-image] {
+        background-image: url('../assets/tile_medium.jpg');
+    }
+
+    /* Product-6 */
+    .more-products .promo_iphone_tradein [unit-image] {
+        background-image: url('../assets/promo_iphone_tradein_medium.jpg');
+    }
+
+}
+
+/* screen 1000px ends here */
+
+@media screen and (max-width:850px) {
+
+    /* psot-1 */
+    .apple-store-shoping-event .text-wrapper {
+        top: 15%;
+    }
+
+    .apple-store-shoping-event .text-wrapper .pro-name {
+        font-size: 55px;
+        text-wrap: wrap;
+    }
+
+    .apple-store-shoping-event .text-wrapper .pro-description {
+        font-size: 30px;
+    }
+
+    .apple-store-shoping-event .text-wrapper .pro-offers {
+        font-size: 25px;
+    }
+
+    .apple-store-shoping-event .text-wrapper .pro-links {
+        font-size: 25px;
+    }
+
+
+    /* post-2 */
+    .iphone-15-pro .image-wrapper figure[unit-image] {
+        background-image: url('../assets/hero_iphone15pro_small.jpg');
+        width: 100vw;
+        height: 548px;
+        background-size: 734px 548px;
+        background-position: bottom center;
+    }
+
+    /* post-3 */
+    .apple-stream-content>.image-wrapper>figure {
+        height: 550px;
+        background-size: 3008px 600px;
+        background-position: top center;
+    }
+
+    .apple-stream-content .text-wrapper {
+        top: auto;
+        bottom: 20px !important;
+    }
+
+    .apple-stream-content .text-wrapper .logo-wrapper img {
+        width: 250px;
+    }
+
+    .apple-stream-content .text-wrapper .pro-description {
+        font-size: 20px;
+    }
+
+
+    .promo-apple-watch-ultra2 .text-wrapper .promo-logo {
+        width: calc(137px - 20%);
+    }
+
+    .apple-card .text-wrapper .promo-logo {
+        width: calc(108px - 20%);
+    }
+
+    .promo_iphone_tradein .text-wrapper .promo-logo {
+        width: calc(155px - 20%);
+    }
+
+    /* post-1 */
+    .apple-store-shoping-event .text-wrapper .pro-links {
+        font-size: 20px;
+    }
+
+}
+
+/* screen = 850px ends here */
+
+@media screen and (max-width:730px) {
+
+    /* More Products */
+    /* Product-1 */
+    .more-products .promo-apple-iphone15 [unit-image] {
+        background-image: url('../assets/promo_iphone15_announce_small.jpg');
+    }
+
+    /* Product-2 */
+    .more-products .promo-mbp [unit-image] {
+        background-image: url('../assets/promo_mbp_small.jpg');
+    }
+
+    /* Product-3 */
+    .more-products .promo-holiday-2023 [unit-image] {
+        background-image: url('../assets/holiday_2023_promo_small.jpg');
+    }
+
+    /* Product-4 */
+    .more-products .promo-apple-watch-ultra2 [unit-image] {
+        background-image: url('../assets/promo_apple_watch_ultra2_order_small.jpg');
+    }
+
+    /* Product-5 */
+    .more-products .apple-card [unit-image] {
+        background-image: url('../assets/tile_small.jpg');
+    }
+
+    /* Product-6 */
+    .more-products .promo_iphone_tradein [unit-image] {
+        background-image: url('../assets/promo_iphone_tradein_small.jpg');
+    }
+
+}
+
+/* screen = 730px ends here */
+
+@media screen and (max-width:550px) {
+
+    /* psot-1 */
+    .apple-store-shoping-event .text-wrapper {
+        top: 15%;
+    }
+
+    .apple-store-shoping-event .text-wrapper .pro-name {
+        font-size: 35px;
+        text-wrap: wrap;
+    }
+
+    .apple-store-shoping-event .text-wrapper .pro-description {
+        font-size: 20px;
+    }
+
+    .apple-store-shoping-event .text-wrapper .pro-offers {
+        font-size: 20px;
+    }
+
+    .apple-store-shoping-event .text-wrapper .pro-links {
+        font-size: 25px;
+    }
+}

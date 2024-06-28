@@ -1,0 +1,134 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/* utility classes */
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+/* hero top full */
+
+/* Apple Store Event */
+
+.apple-store-shoping-event {
+    background: hsl(240, 11%, 96%);
+    width: 100vw;
+    height: 95vh;
+}
+
+.apple-store-shoping-event .image-wrapper figure {
+    width: 100vw;
+    height: 624px;
+    background-image: url('../assets/hero_ase2023_large.jpg');
+    background-repeat: no-repeat;
+    background-size: 3008px 624px;
+    background-position: bottom center;
+
+}
+
+
+.apple-store-shoping-event .text-wrapper .pro-name {
+    font-size: 52px;
+    text-wrap: nowrap;
+}
+
+.apple-store-shoping-event .text-wrapper .pro-description {
+    font-size: 30px;
+    text-align: center;
+    max-width: 500px;
+}
+
+.apple-store-shoping-event .text-wrapper .pro-offers {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+/* iphone 15 pro */
+.iphone-15-pro {
+    background: hsl(0, 0%, 0%);
+    width: 100vw;
+    height: 95vh;
+}
+
+.iphone-15-pro .image-wrapper figure {
+    width: 100%;
+    height: 500px;
+    background-image: url('../assets/hero_iphone15pro.jpeg');
+    background-size: 1200px 600px;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+/* Apple Streaming Content */
+.apple-stream-content .image-wrapper {
+    width: 100vw;
+}
+
+.apple-stream-content>.image-wrapper>figure {
+    width: 100%;
+    height: 624px;
+    position: relative !important;
+    background-image: url('../assets/hero_napoleon_large.jpg');
+    background-repeat: no-repeat;
+    background-size: 3008px 624px !important;
+    background-position: center;
+    left: 0;
+    bottom: 0;
+    z-index: 9;
+}
+
+.apple-stream-content .text-wrapper .pro-name {
+    font-size: 50px;
+    padding: 0;
+    height: 50px;
+}
+
+/* More Products */
+
+/* Product-1 */
+.more-products .promo-apple-iphone15 [unit-image] {
+    background-image: url('../assets/promo_iphone15_announce_large.jpg');
+}
+
+/* Product-2 */
+.more-products .promo-mbp [unit-image] {
+    background-image: url('../assets/promo_mbp_large.jpg');
+}
+
+/* Product-3 */
+.more-products .promo-holiday-2023 [unit-image] {
+    background-image: url('../assets/holiday_2023_promo_large.jpg');
+}
+
+/* Product-4 */
+.more-products .promo-apple-watch-ultra2 [unit-image] {
+    background-image: url('../assets/promo_apple_watch_ultra2_order_large.jpg');
+}
+
+/* Product-5 */
+.more-products .apple-card [unit-image] {
+    background-image: url('../assets/tile_large.jpg');
+}
+
+/* Product-6 */
+.more-products .promo_iphone_tradein [unit-image] {
+    background-image: url('../assets/promo_iphone_tradein_large.jpg');
+}
+
+.promo-apple-watch-ultra2 .text-wrapper .promo-logo {
+    width: 137px;
+}
+
+.apple-card .text-wrapper .promo-logo {
+    width: 108px;
+}
+
+.promo_iphone_tradein .text-wrapper .promo-logo {
+    width: 155px;
+}
